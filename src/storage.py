@@ -60,7 +60,7 @@ class DatasetStorage:
             return False
 
         item["data"] = df.copy()
-        logger.debug(f"Updated dataset: id={dataset_id}")
+        logger.debug(f"Updated dataset: id={dataset_id}, rows={len(df)}")
         return True
 
 
