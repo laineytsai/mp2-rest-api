@@ -12,8 +12,6 @@ validated with Pydantic models, and middleware logs every request with a unique 
 status code, and duration. Errors return status codes, such as 400 for invalid uploads 
 or settings and 404 for missing datasets.
 
-## Setup
-
 ## Running the API
 
 ```bash
